@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
     func playSound(name: String) {
         if let sound = NSDataAsset(name: name) {
             do {
